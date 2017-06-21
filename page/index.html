@@ -8,25 +8,26 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<title></title>
 	</head>
-	<link rel="stylesheet" href="css/index.css" />
-	<link rel="stylesheet" href="css/media.css" />
-	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="css/owl.carousel.css" />
-	<link rel="stylesheet" href="css/owl.theme.css" />
+	<link rel="stylesheet" href="../css/Animate.css" />
+	<link rel="stylesheet" href="../css/index.css" />
+	<link rel="stylesheet" href="../css/media.css" />
+	<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="../css/owl.carousel.css" />
+	<link rel="stylesheet" href="../css/owl.theme.css" />
 	<body>
 		<!--开始-->
 		<div class="wrap">
 			<div class="header">
 				<div class="headerauto">
 					<div class="header_left content">
-						<a href="index.html"><img src="img/logo.png"/></a>
+						<a href="index.html"><img src="../img/logo.png"/></a>
 					</div><!--header_left-->
 					<div class="header_mid content">
 						<ul class="nav">
 							<li><a href="index.html">首页</a></li>
 							<li><a href="about.html">景区概况</a></li>
 							<li><a href="wyzl.html">文苑之旅</a></li>
-							<li><a href="">舒雅住宅</a></li>
+							<li onclick="alert('未实现')"><a href="">舒雅住宅</a></li>
 							<li><a href="./news.html">新闻动态</a></li>
 							<li><a href="./feedback.html">留言中心</a></li>
 							<li><a href="./contact.html">联系我们</a></li>
@@ -45,16 +46,21 @@
 			</div><!--header-->
 			<div class="mobile_nav" id="sidr-left">
 				<ul>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="about.html">景区概况</a></li>
+					<li><a href="wyzl.html">文苑之旅</a></li>
+					<li onclick="alert('未实现')"><a href="">舒雅住宅</a></li>
+					<li><a href="./news.html">新闻动态</a></li>
+					<li><a href="./feedback.html">留言中心</a></li>
+					<li><a href="./contact.html">联系我们</a></li>
 				</ul>
-			</div><!--mobile_nav-->
-			<div class="about_banner"><img src="img/banner_jing.png"/></div><!--about_banner-->
-			<div class="where">位置：<a href="">首页</a>><a href="">景区概况</a></div>
+			</div>
+			<div class="focus" id="owl-demo">
+				<div class="item"><img src="../img/banner1.jpg" alt=""></div>
+				<div class="item"><img src="../img/banner1.jpg" alt=""></div>
+				<div class="item"><img src="../img/banner1.jpg" alt=""></div>
+				<div class="item"><img src="../img/banner1.jpg" alt=""></div>
+			</div><!--focus-->
 			<div class="about all">
 				<div class="about_top all_top">
 					<h1 data-text = "景区概况">
@@ -65,85 +71,99 @@
 					<span>SCENIC OVERVIEW</span>
 				</div><!--about_top-->
 				<div class="about_bottom all_bottom">
-					<p style="line-height: 30px;">上海珍岛商业管理有限公司位于国家级经济技术开发区，是首批专注于精品民宿的新型创业连锁平台。<br />
+					<p>上海珍岛商业管理有限公司位于国家级经济技术开发区，是首批专注于精品民宿的新型创业连锁平台。<br />
 公司成立于2016年2月，注册资金1000万元。珍岛使命在于构筑“万众创新、大众创业”的新型平台，建立一个为历史和未来负责的、“留得住浓浓的乡愁”的城镇化村落服务体系，
-为中国城镇化进程中的美丽乡村建设贡献一份力量。<br />对于旅行，从来都记忆模糊。记不得都去了哪些地方，看了哪些风景，遇到哪些人。尽管同学说，去旅行不在于记忆，而在于当时的那份心情。可是旅行的彼时那刻我的心情一直
-是好的吗?一直有记日记的习惯，可是，旅行回来，都懒得写日记来记录，可见内心底对旅行是多么的淡漠。
+为中国城镇化进程中的美丽乡村建设贡献一份力量。
 					</p>
+					<div class="all_next_img"><span></span></div>
+					<div class="all_line animated fadeInLeft" id="all_line"></div><!--about_line-->
 				</div><!--about_bottom-->
-				<div class="about_img" id="owl-demo3">
-					<div class="item">
-						<div class="nei">
-						<div class="left"><span>文物</span><br />欣赏</div>
-						<div class="right">Appreciation of cultural relics</div>
-						</div>
-						<img src="img/jing1.png"/>
-						<p>文物欣赏<br />Appreciation of cultural relics</p>
-					</div>
-					<div class="item">
-						<div class="nei">
-						<div class="left"><span>古玩</span><br />欣赏</div>
-						<div class="right">Antique appreciation</div>
-						</div>
-						<img src="img/jing2.jpg"/>
-						<p>古玩欣赏<br />Antique appreciation</p>
-					</div>
-					<div class="item">
-						<div class="nei">
-						<div class="left"><span>藏物</span><br />欣赏</div>
-						<div class="right">Tibetan appreciation </div>
-						</div>
-						<img src="img/jing3.png"/>
-						<p>藏物欣赏<br />Tibetan appreciation</p>
-					</div>
-					<div class="item">
-						<div class="nei">
-						<div class="left"><span>景区</span><br />欣赏</div>
-						<div class="right">Scenic appreciation  </div>
-						</div>
-						<img src="img/jing4.jpg"/>
-						<p>景区欣赏<br />Scenic appreciation</p>
-					</div>
-				</div><!--about_img-->
-				<div class="all_next_img"><span></span></div>
-				<div class="all_line animated fadeInLeft" id="all_line"></div><!--about_line-->
 			</div><!--about-->
-			<div class="about_friend all">
-				<div class="about_friend_top all_top">
-					<h1 data-text = "合作伙伴">
-						<a>合作伙伴</a>
+			<div class="wyzl all">
+				<div class="wyzl_top all_top">
+					<h1 data-text = "文苑之旅">
+						<a>文苑之旅</a>
 						<span class="line left"></span>
 						<span class="line right"></span>
 					</h1>
-					<span>Cooperative partner</span>
-				</div><!--about_top-->
-				<div class="about_friend_bottom all_bottom">
-					<ul id="owl-demo4">
-						<div class="item">
-							<a href=""><li></li></a>
-							<a href=""><li></li></a>
+					<span>COURT TRAVEL</span>
+				</div><!--wyzl_top-->
+				<div class="wyzl_bottom all_bottom owl-carousel" id="owl-demo1">
+					<div class="item wenyuan">
+						<img src="../img/cha.jpg"/>
+						<div class="zhushi">
+							<h3>茶艺中心</h3>
+							<span>茶艺中心茶艺中心</span>
 						</div>
-						<div class="item">
-							<a href=""><li></li></a>
-							<a href=""><li></li></a>
+						<p>茶艺中心</p>
+					</div>
+					<div class="item wenyuan">
+						<img src="../img/zhu.png"/>
+						<div class="zhushi">
+							<h3>万林竹海</h3>
+							<span>万林竹海万林竹海</span>
 						</div>
-						<div class="item">
-							<a href=""><li></li></a>
-							<a href=""><li></li></a>
+						<p>万林竹海</p>
+					</div>
+					<div class="item wenyuan">
+						<img src="../img/chuangyi.jpg"/>
+						<div class="zhushi">
+							<h3>创意中心</h3>
+							<span>创意中心创意中心</span>
 						</div>
-						<div class="item">
-							<a href=""><li></li></a>
-							<a href=""><li></li></a>
+						<p>创意中心</p>
+					</div>
+					<div class="item wenyuan">
+						<img src="../img/hua.jpg"/>
+						<div class="zhushi">
+							<h3>花草园艺</h3	>
+							<span>花草园艺花草园艺</span>
 						</div>
-						<div class="item">
-							<a href=""><li></li></a>
-							<a href=""><li></li></a>
-						</div>
-					</ul>
-				</div><!--about_bottom-->
+						<p>花草园艺</p>
+					</div>
+				</div><!--wyzl_bottom-->
 				<div class="all_next_img"><span></span></div>
-				<div class="all_line animated fadeInLeft" id="all_line"></div><!--about_line-->
-			</div><!--about_friend-->
+				<div class="all_line animated fadeInLeft" id="all_line"></div>
+			</div><!--wyzl-->
+			<div class="home all">
+				<div class="home_top all_top">
+					<h1 data-text = "舒雅住宅">
+						<a>舒雅住宅</a>
+						<span class="line left"></span>
+						<span class="line right"></span>
+					</h1>
+					<span>COMFORTABLE RESIDENTIAL</span>
+				</div><!--home_top-->
+				<div class="home_bottom all_bottom">
+					<div class="home_left owl-carousel" id="owl-demo2">
+						<div class="item">
+							<img src="../img/china.jpg"/>
+							<p>用现代手法进行融合，将东方文化最传统的要素一一提炼，
+								导入生活的每个细节中，使原本的色彩陈旧的饰品与现代的理念相结合将整个空间在大气庄严中实现包容共生。</p>
+						</div>
+						<div class="item">
+							<img src="../img/jianjie.jpg"/>
+							<p>悠悠万世，何为至美？非姹紫嫣红，非桃红柳绿，非气象万千。简约之美，乃为至美。姹紫嫣红，
+								逞一时之芳；桃红柳绿，逞一时之盛；</p>
+						</div>
+					</div>
+					<div class="home_right">
+						<div class="home_header">
+							<img src="../img/fang.png"/>
+							<p>客|房|介|绍</p>
+						</div>
+						<div class="home_content active">
+							杭州安缦云酒店设计以深厚的东方文化底蕴为核心，用现代手法进行融合，将东方文化最传统的要素一一提炼，导入生活的每个细节中，使原本的色彩陈旧的饰品与现代的理念相结合将整个空间在大气庄严中实现包容共生。
+						</div>
+						<div class="home_content">
+							悠悠万世，何为至美？非姹紫嫣红，非桃红柳绿，非气象万千。简约之美，乃为至美。姹紫嫣红，逞一时之芳；桃红柳绿，逞一时之盛；气象万千，逞一瞬之奇；而简约之美，万古不废。
+						</div>
+					</div>
+					<div style="clear: both;"></div>
+				</div><!--home_bottom-->
+				<div class="all_next_img"><span></span></div>
+				<div class="all_line animated fadeInLeft" id="all_line"></div><!--all_line-->
+			</div><!--home-->
 			<div class="news all">
 				<div class="news_top all_top">
 					<h1 data-text = "新闻动态">
@@ -247,8 +267,8 @@
 			</div><!--footer_bg-->
 		</div><!--wrap-->
 	</body>
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
-	<script type="text/javascript" src="js/owl.carousel.js" ></script>
-	<script type="text/javascript" src="js/jquery.sidr.min.js" ></script>
-	<script type="text/javascript" src="js/index.js" ></script>
+	<script type="text/javascript" src="../js/jquery-3.2.1.min.js" ></script>
+	<script type="text/javascript" src="../js/owl.carousel.js" ></script>
+	<script type="text/javascript" src="../js/jquery.sidr.min.js" ></script>
+	<script type="text/javascript" src="../js/index.js" ></script>
 </html>

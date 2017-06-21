@@ -807,8 +807,12 @@ body
 .liuyan_content .content span{width: 5%;display: inline-block;position: relative;top: -85px;}
 .liuyan_content .content textarea{width: 91%;outline: none;height: 200px;}
 .liuyan_content button{width: 20%;border: 1px solid black;height: 30px;margin-top: 20px;}
-.contact__content div{width: 50%;}
-.contact__content .data ul li{display: flex;margin-top: 30px;}
+.contact__content>p{padding-bottom: 50px;}
+.contact__content .float{width: 50%;height: 400px;}
+.contact__content .data ul li{display: flex;margin-top: 50px;}
 .contact__content .data ul{padding-left: 20px;}
 .contact__content .data ul li{font-size: 20px;}
 .contact__content .data ul li i{font-size: 30px;width: 15%;color: #81a849;}
+.contact__content .map img{height: 100%;width: 100%;}
+.mobile_nav ul li{margin-top: 30px;padding-left: 15px;}
+.mobile_nav ul li a{color: black;}
