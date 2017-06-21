@@ -18,6 +18,9 @@ li
 {
 	list-style: none;
 }
+.float{
+	float: left;
+}
 /*样式开始*/
 body
 {
@@ -684,22 +687,22 @@ body
 	position: relative;
 	overflow: hidden;
 }
-.wyzl_nav ul
+.wyzl_nav ul,.news_nav ul
 {
 	display: inline-block;
 	position: relative;
 }
-.wyzl_nav li
+.wyzl_nav li,.news_nav li
 {
 	display: inline-block;
 	line-height: 35px;
 	margin: 0 15px;
 }
-.wyzl_nav li:hover
+.wyzl_nav li:hover,.news_nav li:hover
 {
 	cursor: pointer;
 }
-.wyzl_nav .under_line
+.wyzl_nav .under_line,.news_nav .under_line
 {
 	width: 64px;
 	height: 25px;
@@ -791,3 +794,21 @@ body
 	line-height: 35px;
 	padding: 10px;
 }
+.news_banner img{
+	width: 100%;
+	height: 100%;
+}
+.news_nav{text-align: center;}
+.liuyan_content ul{padding-top: 50px;}
+.liuyan_content li div{width:48%; padding-bottom: 20px;}
+.liuyan_content li div span{width: 10%;display: inline-block;}
+.liuyan_content li div input{width: 90%;border: 1px solid gray;outline: greenyellow;height: 50px;}
+.liuyan_content .content{text-align: left;}
+.liuyan_content .content span{width: 5%;display: inline-block;position: relative;top: -85px;}
+.liuyan_content .content textarea{width: 91%;outline: none;height: 200px;}
+.liuyan_content button{width: 20%;border: 1px solid black;height: 30px;margin-top: 20px;}
+.contact__content div{width: 50%;}
+.contact__content .data ul li{display: flex;margin-top: 30px;}
+.contact__content .data ul{padding-left: 20px;}
+.contact__content .data ul li{font-size: 20px;}
+.contact__content .data ul li i{font-size: 30px;width: 15%;color: #81a849;}

@@ -8,7 +8,6 @@
 	height: 25%;
 	bottom: 0;
 	right: -33.3333%;
-	height: ;
     }
     .home_left .owl-controls .owl-pagination
     {
@@ -272,4 +271,10 @@
 		transform: translate3d(0px,0,0);
 	    -webkit-transform: translate3d(0,0,0);
 	}
+	.liuyan_content{padding-right: 20px;}
+	.liuyan_content li div{
+		width: 100%;
+	}
+	.liuyan_content .content span{width: 10%;}
+	.liuyan_content .content textarea{width: 90%;}
 }
